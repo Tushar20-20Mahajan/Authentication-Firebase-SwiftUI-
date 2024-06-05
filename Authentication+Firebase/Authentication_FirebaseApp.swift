@@ -20,7 +20,10 @@ struct Authentication_FirebaseApp: App {
 
     var body: some Scene {
         WindowGroup {
-            AuthenticationView()
+            NavigationStack{
+                AuthenticationView()
+            }
+           
         }
     }
 }
